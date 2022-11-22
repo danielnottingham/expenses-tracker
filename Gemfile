@@ -45,6 +45,10 @@ gem "tzinfo-data", "2.0.5", platforms: %i[mingw mswin x64_mingw jruby]
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", "1.6.3", platforms: %i[mri mingw x64_mingw]
+  # To help fixture creation [https://github.com/thoughtbot/factory_bot_rails]
+  gem "factory_bot_rails", "6.2.0"
+  # Provides RSpec-compatible one-liners to test common Rails functionality [https://github.com/thoughtbot/shoulda-matchers]
+  gem "shoulda-matchers", "5.2.0"
 end
 
 group :development do
