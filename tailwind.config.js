@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: [require('flowbite/plugin')],
   content: [
     './app/views/**/*.html.erb',
     './app/helpers/**/*.rb',

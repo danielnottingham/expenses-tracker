@@ -13,6 +13,8 @@ gem "cssbundling-rails", "1.1.1"
 gem "jbuilder", "2.11.5"
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem "jsbundling-rails", "1.0.3"
+# Lookbook provides UI for view component previews [https://github.com/allmarkedup/lookbook]
+gem "lookbook", "1.4.0"
 # Use postgresql as the database for Active Record
 gem "pg", "1.1"
 # Use the Puma web server [https://github.com/puma/puma]
@@ -29,6 +31,8 @@ gem "stimulus-rails", "1.1.1"
 gem "turbo-rails", "1.3.2"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", "2.0.5", platforms: %i[mingw mswin x64_mingw jruby]
+# A framework for building reusable, testable & encapsulated view components in Ruby on Rails [https://github.com/github/view_component]
+gem "view_component", "2.77.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -52,6 +56,8 @@ group :development, :test do
 end
 
 group :development do
+  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
+  gem "rack-mini-profiler", "3.0.0"
   # To ensure code consistency [https://docs.rubocop.org]
   gem "rubocop", "1.31.2"
   gem "rubocop-performance", "1.14.2"
