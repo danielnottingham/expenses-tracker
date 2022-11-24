@@ -9,6 +9,8 @@ ruby "3.1.2"
 gem "bootsnap", "1.14.0", require: false
 # Bundle and process CSS [https://github.com/rails/cssbundling-rails]
 gem "cssbundling-rails", "1.1.1"
+# Devise is a flexible authentication solution for Rails based on Warden [https://github.com/heartcombo/devise].
+gem "devise", "4.8.1"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder", "2.11.5"
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
