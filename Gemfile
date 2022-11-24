@@ -75,3 +75,12 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+group :test do
+  # Acceptance test framework for web applications [https://github.com/teamcapybara/capybara]
+  gem "capybara", "3.38.0"
+  # A browser automation framework and ecosystem [https://github.com/SeleniumHQ/selenium]
+  gem "selenium-webdriver", "4.6.1"
+  # Keep your Selenium WebDrivers updated automatically [https://github.com/titusfortner/webdrivers]
+  gem "webdrivers", "5.2.0"
+end
