@@ -260,6 +260,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    service_actor (3.4.1)
+      zeitwerk
     shoulda-matchers (5.2.0)
       activesupport (>= 5.2.0)
     sprockets (4.1.1)
@@ -330,6 +332,7 @@ DEPENDENCIES
   rubocop-rails (= 2.15.2)
   rubocop-rspec (= 2.12.1)
   selenium-webdriver (= 4.6.1)
+  service_actor (= 3.4.1)
   shoulda-matchers (= 5.2.0)
   sprockets-rails (= 3.4.2)
   stimulus-rails (= 1.1.1)

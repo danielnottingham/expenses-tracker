@@ -25,6 +25,8 @@ gem "puma", "5.0"
 gem "rails", "7.0.4"
 # Use Redis adapter to run Action Cable in production
 gem "redis", "4.8.0"
+# Composable service objects [https://github.com/sunny/actor]
+gem "service_actor", "3.4.1"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails", "3.4.2"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
