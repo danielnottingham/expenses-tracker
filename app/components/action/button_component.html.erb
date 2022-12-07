@@ -1,0 +1,10 @@
+<% if tag == :button %>
+  <%= button_tag class: button_classes, **html_options do %>
+    <%= content %>
+  <% end %>
+<% else %>
+   <%= link_to href.to_s, class: button_classes, **html_options do %>
+    <%= content %>
+  <% end %>
+<% end %>
+
