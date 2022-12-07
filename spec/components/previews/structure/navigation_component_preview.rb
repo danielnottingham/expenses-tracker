@@ -3,7 +3,7 @@
 module Structure
   class NavigationComponentPreview < ViewComponent::Preview
     # @param logo
-    def playground(logo: "Fin-App")
+    def playground(logo: "ExpensesTracker")
       render Structure::NavigationComponent.new(logo: logo) do |navigation|
         navigation.with_item(href: "#") { "item 1" }
         navigation.with_item(href: "#") { "item 2" }

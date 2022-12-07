@@ -1,3 +1,3 @@
-# Fin-App
+# ExpensesTracker
 
-![example workflow](https://github.com/danielnottingham/fin-app/actions/workflows/ci.yml/badge.svg)
+![example workflow](https://github.com/danielnottingham/expenses-tracker/actions/workflows/ci.yml/badge.svg)
