@@ -1,7 +1,22 @@
-<h2 class="text-4xl font-bold text-gray-800">Accounts list</h2>
-
-<% accounts.each do |account| %>
-  <ul>
-    <p><%= account.title %></p>
-  </ul>
+<%= dn_navbar(logo: "ExpensesTracker") do |nav| %>
+  <% nav.with_item(href: accounts_path) { "Accounts" } %>
 <% end %>
+
+<div class="container mx-auto px-4 md:container md:mx-auto md:px-4">
+  <h2 class="text-4xl font-bold text-gray-800 my-6 text-center">Accounts list</h2>
+
+  <% if accounts.empty? %>
+    <div class="flex justify-center">
+      <%= dn_empty_state(
+        title: "Accounts Empty State",
+        description: "You do not have any account created. Click the button below to create an account.",
+        btn: "Account",
+        href: "#"
+      ) %>
+    </div>
+  <% else %>
+    <% accounts.each do |account| %>
+      <p><%= account.title %></p>
+    <% end %>
+  <% end %>
+</div>
